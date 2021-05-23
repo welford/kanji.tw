@@ -1,0 +1,18 @@
+created: 20210407210907843
+modified: 20210523175053307
+tags: blog-donotexport
+title: moji-template
+
+|mojiTable |k
+| !読み |  !音読み | <$list filter="[list[!!onyomi]]"><$view field="title"/> </$list> |
+|~|           !訓読み | <$list filter="[list[!!kunyomi]]"><$view field="title"/> </$list> |
+| !画数               |<| <$list filter="[list[!!strokes]]"><$view field="title"/> </$list> |
+| !意味               |<| <$list filter="[list[!!meanings]]"><$view field="title"/> </$list> |
+
+!!例 (<$list filter="[tag[類：言葉]regexp{!!title}count[]]"><$view field="title"/></$list>数)
+
+<$list filter="[tag[類：言葉]regexp{!!title}]"><$link to={{!!title}}><$view field="title"/></$link>, </$list>
+
+
+
+
