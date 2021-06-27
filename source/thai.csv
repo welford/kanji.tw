@@ -1,0 +1,45 @@
+symbol,thai,rtgs,meaning,rtgs initial,rtgs final, ipa initial, ipa final, class
+ก,ก ไก่,ko kai,chicken,k,k,[k],[k̚],mid
+ข,ข ไข่,kho khai,egg,kh,k,[kʰ],[k̚],high
+ฃ,ฃ ขวด,kho khuat,bottle (obsolete),kh,k,[kʰ],[k̚],high
+ค,ค ควาย,kho khwai,buffalo,kh,k,[kʰ],[k̚],low
+ฅ,ฅ คน,kho khon,person (obsolete),kh,k,[kʰ],[k̚],low
+ฆ,ฆ ระฆัง,kho ra-khang,bell,kh,k,[kʰ],[k̚],low
+ง,ง งู,ngo ngu,snake,ng,ng,[ŋ],[ŋ],low
+จ,จ จาน,cho chan,plate,ch,t,[tɕ],[t̚],mid
+ฉ,ฉ ฉิ่ง,cho ching,cymbals,ch,–,[tɕʰ],–,high
+ช,ช ช้าง,cho chang,elephant,ch,t,[tɕʰ],[t̚],low
+ซ,ซ โซ่,so so,chain,s,t,[s],[t̚],low
+ฌ,ฌ เฌอ,cho choe,tree,ch,–,[tɕʰ],–,low
+ญ,ญ หญิง,yo ying,woman,y,n,[j],[n],low
+ฎ,ฎ ชฎา,do cha-da,headdress,d,t,[d],[t̚],mid
+ฏ,ฏ ปฏัก,to pa-tak,goad; javelin,t,t,[t],[t̚],mid
+ฐ,ฐ ฐาน,tho than,pedestal,th,t,[tʰ],[t̚],high
+ฑ,ฑ มณโฑ,tho montho,Montho: character from Ramayana,th or d,t,[tʰ] or [d],[t̚],low
+ฒ,ฒ ผู้เฒ่า,tho phu-thao,elder,th,t,[tʰ],[t̚],low
+ณ,ณ เณร,no nen,samanera,n,n,[n],[n],low
+ด,ด เด็ก,do dek,child,d,t,[d],[t̚],mid
+ต,ต เต่า,to tao,turtle,t,t,[t],[t̚],mid
+ถ,ถ ถุง,tho thung,sack,th,t,[tʰ],[t̚],high
+ท,ท ทหาร,tho thahan,soldier,th,t,[tʰ],[t̚],low
+ธ,ธ ธง,tho thong,flag,th,t,[tʰ],[t̚],low
+น,น หนู,no nu,mouse,n,n,[n],[n],low
+บ,บ ใบไม้,bo baimai,leaf,b,p,[b],[p̚],mid
+ป,ป ปลา,po pla,fish,p,p,[p],[p̚],mid
+ผ,ผ ผึ้ง,pho phueng,bee,ph, –,[pʰ],–,high
+ฝ,ฝ ฝา,fo fa,lid,f, –,[f],–,high
+พ,พ พาน,pho phan,phan,ph,p,[pʰ],[p̚],low
+ฟ,ฟ ฟัน,fo fan,teeth,f,p,[f],[p̚],low
+ภ,ภ สำเภา,pho sam-phao,junk,ph,p,[pʰ],[p̚],low
+ม,ม ม้า,mo ma,horse,m,m,[m],[m],low
+ย,ย ยักษ์,yo yak,giant yaksha,y,–or n[e],[j],–or [n],low
+ร,ร เรือ,ro ruea,boat,r,n,[r],[n],low
+ล,ล ลิง,lo ling,monkey,l,n,[l],[n],low
+ว,ว แหวน,wo waen,ring,w,–[f],[w],–,low
+ศ,ศ ศาลา,so sala,pavilion, sala,s,t,[s],[t̚],high
+ษ,ษ ฤๅษี,so rue-si,hermit,s,t,[s],[t̚],high
+ส,ส เสือ,so suea,tiger,s,t,[s],[t̚],high
+ห,ห หีบ,ho hip,chest, box,h,–,[h],–,high
+ฬ,ฬ จุฬา,lo chu-la,kite,l,n,[l],[n],low
+อ,อ อ่าง,o ang,basin,–[g], –,[ʔ],–,mid
+ฮ,ฮ นกฮูก,ho nok-huk,owl,h, –,[h],–,low

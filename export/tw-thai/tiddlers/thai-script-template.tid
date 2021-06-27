@@ -1,0 +1,28 @@
+created: 20150620130427249
+modified: 20150620130427249
+type: text/vnd.tiddlywiki
+title: thai-script-template
+
+!<$list filter="[list[!!title]]"><$view field="title"/> </$list>
+
+<$a>
+
+|scriptTable |k
+| !symbol | <$list filter="[list[!!title]]"><$view field="title"/> </$list> |
+| !thai reading | <$a><$list filter="[list[!!thai-writing]]"><$view field="title"/></$list></$a> |
+| !RTGS reading | <$a><$list filter="[list[!!rtgs-writing]]"><$view field="title"/> </$list></$a> |
+| !Meaning | <$a><$list filter="[list[!!meaning]]"><$view field="title"/> </$list></$a> |
+| !RTGS Initial | !RTGS Final |
+| <$a><$list filter="[list[!!rtgs-initial]]"><$view field="title"/> </$list></$a> | <$a><$list filter="[list[!!rtgs-final]]"><$view field="title"/> </$list></$a> |
+| !IPSInitial | !IPS Final |
+| <$a><$list filter="[list[!!ips-initial]]"><$view field="title"/> </$list></$a> | <$a><$list filter="[list[!!ips-final]]"><$view field="title"/> </$list></$a> |
+
+</$a>
+
+!! Examples
+
+!!! full
+<$list filter="[tag[thai script example]regexp{!!title}]"><$transclude tiddler={{!!title}} mode=block/></$list>
+
+!!! list
+<$list filter="[tag[thai script example]regexp{!!title}]"><$link to={{!!title}}><$view field="title"/></$link>, </$list>

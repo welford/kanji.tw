@@ -13,7 +13,7 @@ with open("..\\source\\kanji-jouyou.json","rb") as json_file:
 		1 :"一",2:"二",3:"三",4:"四",5:"五",6:"六",7:"七",8:"八",9:"九",10:"十",11:"十一",12:"十二",13:"十三",14:"十四",15:"十五",16:"十六",17:"十七",18:"十八",19:"十九",20:"二十",21:"二十一",22:"二十二",23:"二十三",24:"二十四",25:"二十五",26:"二十六",27:"二十七",28:"二十八",29:"二十九",30:"三十",31:"三十一",32:"三十二",33:"三十三",34:"三十四",35:"三十五",36:"三十六",37:"三十七",38:"三十八",39:"三十九",
 	}
 	for d in data:
-		f = open("..\\kanjidb\\export\\tw-jouyou\\tiddlers\\"+d+".tid", "w",encoding='utf8')
+		f = open("..\\export\\tw-jouyou\\tiddlers\\"+d+".tid", "w",encoding='utf8')
 		f.write("created: 20150620130427249\n")
 		f.write("modified: 20150620130427249\n")
 		f.write("type: text/vnd.tiddlywiki\n")
@@ -37,7 +37,7 @@ with open("..\\source\\kanji-jouyou.json","rb") as json_file:
 		grade = "教育漢字" if data[d]["grade"] < 7 else ""
 		grade = "人名用" if data[d]["grade"] > 7 and data[d]["grade"] < 10 else ""
 
-		f.write("tags: 常用 類：字 "+grade+" "+count[data[d]["strokes"]]+"画 output \n")
+		f.write("tags: 常用 類：字 "+grade+" "+count[data[d]["strokes"]]+"画\n")
 
 		f.write("\n{{||moji-template}}\n")
 		f.close()
