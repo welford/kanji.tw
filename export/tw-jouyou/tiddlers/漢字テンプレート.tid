@@ -1,0 +1,14 @@
+created: 20210407210907843
+modified: 20210523175053307
+tags: blog-donotexport
+title: 漢字テンプレート
+
+|mojiTable |k
+| !読み |  !音読み | <$list filter="[list[!!音読み]]"><$view field="title"/> </$list> |
+|~|           !訓読み | <$list filter="[list[!!訓読み]]"><$view field="title"/> </$list> |
+| !画数               |<| <$list filter="[list[!!画数]]"><$view field="title"/> </$list> |
+| !意味               |<| <$list filter="[list[!!意味]]"><$view field="title"/> </$list> |
+
+!!例 (<$list filter="[tag[類：言葉]regexp{!!title}count[]]"><$view field="title"/></$list>数)
+
+<$list filter="[tag[類：言葉]regexp{!!title}]"><$link to={{!!title}}><$view field="title"/></$link>, </$list>
